@@ -1,0 +1,25 @@
+/* Toda vez que for criar uma configuração padrão para o meu site vou fazer aqui dentro, todos os filhos vão pegar/herdar a configuração */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+
+/* Para pegar o ID eu uso o # */
+#div1{
+    width: 50%;
+    height: 300px;
+    background-color: aqua;
+}
+
+#div2{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(4, 0, 255);
+}
