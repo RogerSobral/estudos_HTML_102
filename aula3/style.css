@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pai {
+    width: 100%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    padding: 10px;
+    height: 100%;
+
+}
+
+.filho {
+    border: 1px solid rgb(150, 45, 89);
+    background-color: aqua;
+    display: block;
+    width: 30%;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.filho h1 {
+    font-size: 0.5rem;
+}
+
+
+.menu{
+    background-color: brown;
+}
+.option{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;   
+}
+
+.option a{
+    color: white;
+    text-decoration: none;
+}
+
+.option:hover{
+
+    background-color: rgb(184, 52, 52);
+}
+.option a:active{
+    color: bisque;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    picture img{
+        width: 300px;
+    }
+
+
+</style>
+
+</head>
+<body>
+    
+    <h1>Trabalhando com Imagens</h1>
+    <picture>
+        <source media="(max-width:750px )" srcset="assets/pequena.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="assets/media.jpg" type="image/jpg">
+        <img src="assets/grande.jpg" alt="descrever">
+    </picture>
+
+    <H2>Subindo audios de maneira mais eficiente</H2>
+    <audio preload="metadata" autoplay controls loop>
+    <source src="midia/rocky.mp3" type="audio/mpeg">
+    <source src="midia/rocky.ogg" type="audio/ogg">
+    <source src="midia/rocky.wav" type="audio/wav">
+
+    <p>Não foi possível carregar o audio, tente abrir em outro navegador, 
+        <a href="midia/rocky.mp3">clique aqui para baixar a musica</a>
+    </p>
+    </audio>
+
+
+
+</body>
+</html>
