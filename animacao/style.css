@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    height: 300vh; /* espaço para rolar */
+}
+
+.parallax{
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+}
+
+.parallax img{
+    position: absolute;
+    transition: transform 0.1s linear;
+}
+
+.fundo{
+    width: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+}
+
+.esquerda{
+    width: 300px;
+    left: -350px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.direita{
+    width: 300px;
+    right: -350px;
+    top: 50%;
+    transform: translateY(-50%);
+}
